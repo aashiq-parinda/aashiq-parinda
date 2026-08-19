@@ -31,11 +31,13 @@ I build research-grade quantum simulation engines, hybrid quantum-classical orch
 ### 🚀 Upstream Open-Source Pull Requests & Bug Fixes
 * **Qiskit SDK (`qiskit.circuit.library`)** — *IBM Quantum*:
   * **Issue & PR**: Root cause analysis and upstream fix for [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) fixing custom register width propagation in `MultiplierGate` high-level synthesis decompositions.
+* **Mitiq (`mitiq.zne`)** — *Unitary Fund*:
+  * **Upstream PR**: [PR #1866](https://github.com/unitaryfund/mitiq/pull/1866) improving `noise_scaling_converter` module naming and extrapolation API consistency.
+* **PennyLane (`pennylane.ops` & `pennylane.gradients`)** — *Xanadu*:
+  * **Upstream PRs**: [PR #5818](https://github.com/PennyLaneAI/pennylane/pull/5818) (`QASM measure` support), [PR #2667](https://github.com/PennyLaneAI/pennylane/pull/2667) (`PSWAP` gate operation), [PR #2649](https://github.com/PennyLaneAI/pennylane/pull/2649) (`IsingXY` interaction generator), [PR #2062](https://github.com/PennyLaneAI/pennylane/pull/2062) (`Adjoint` identity/barrier methods).
 
 ### 🔬 Ecosystem Deep-Dive Case Studies & SDK Verification
-* **Mitiq (Unitary Fund)**: Comparative numerical stability benchmark of Vandermonde polynomial fit vs analytical Lagrange Richardson extrapolation in `mitiq.zne.inference`.
-* **PennyLane (Xanadu)**: Exact analytical 2-term and 4-term Parameter-Shift Rule verification and operator algebra benchmarking.
-* **Stim (Google Quantum AI) / PyMatching**: CSS Surface code stabilizer tableau extraction, Pauli error syndrome detection, and graph matching recovery.
+* **Stim (Google Quantum AI) / PyMatching**: CSS Surface code stabilizer tableau extraction, Pauli error syndrome detection, and graph matching recovery case study.
 
 ---
 
