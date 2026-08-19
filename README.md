@@ -1,8 +1,8 @@
 # Hi there, I'm Ashraf Khan 👋
 
-### ⚛️ Quantum Computing Research Engineer · Solutions Architect · GenAI × Quantum
+### ⚛️ Full-Stack Mobile & AI Engineer ➔ Quantum Computing Research Engineer & Solutions Architect
 
-I build research-grade quantum simulation engines, hybrid quantum-classical orchestration pipelines, and original research at the intersection of generative AI and quantum algorithms — all from mathematical first principles.
+Former Senior Full-Stack Mobile & Cloud Engineer (5+ years, 10+ published apps across App Store & Google Play) transitioning into **Quantum Computing Research Engineering & Solutions Architecture (GenAI × Quantum)**. I build research-grade quantum simulation engines, hybrid quantum-classical orchestration pipelines, and original research at the intersection of generative AI and quantum algorithms from mathematical first principles.
 
 ---
 
