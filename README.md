@@ -1,64 +1,77 @@
 # Hi there, I'm Ashraf Khan 👋
 
-### ⚛️ Full-Stack Mobile & AI Engineer ➔ Quantum Computing Research Engineer & Solutions Architect
+### ⚛️ Senior Full-Stack & AI Engineer ➔ Quantum Computing Research Engineer & Solutions Architect
 
 Former Senior Full-Stack Mobile & Cloud Engineer (5+ years, 10+ published apps across App Store & Google Play) transitioning into **Quantum Computing Research Engineering & Solutions Architecture (GenAI × Quantum)**. I build research-grade quantum simulation engines, hybrid quantum-classical orchestration pipelines, and original research at the intersection of generative AI and quantum algorithms from mathematical first principles.
 
 ---
 
-## 🔬 Research Repositories
+## 🔬 Original Research & Zenodo Published Preprints
 
-| Type | Repository | Focus |
+| Research Preprint / Paper | Focus & Breakthrough | Zenodo DOI / Record | Status |
+| :--- | :--- | :---: | :---: |
+| **[`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart)** | **Joint Architecture + Parameter Transformer for VQE**: 15K-param dual-head NumPy transformer predicting sparse entangling topologies ($66.7\% - 83.1\%$ CX gate reduction) and warm-start angles across multi-molecule families ($H_2, \text{LiH}, \text{BeH}_2, H_4$). | [![DOI: 10.5281/zenodo.22013110](https://zenodo.org/badge/DOI/10.5281/zenodo.22013110.svg)](https://doi.org/10.5281/zenodo.22013110) | ✅ Published Preprint |
+| **[`quantum-zne-reproduction`](https://github.com/aashiq-parinda/quantum-zne-reproduction)** | **Temme et al. 2017 Reproduction (PRL 119, 180509)**: Full mathematical verification of ZNE via unitary gate folding $U \to U(U^\dagger U)^n$ + analytical Lagrange Richardson extrapolation. Reproduces Figs 1–3 + discrepancy analysis. | [![DOI: 10.5281/zenodo.21979332](https://zenodo.org/badge/DOI/10.5281/zenodo.21979332.svg)](https://doi.org/10.5281/zenodo.21979332) | ✅ Published Report |
+
+---
+
+## 🚀 Upstream Open-Source Code Contributions
+
+| Ecosystem | Domain & Module | Contribution Type | Target / Link | Status |
+| :--- | :--- | :--- | :--- | :---: |
+| **Qiskit SDK** *(IBM Quantum)* | `qiskit.circuit.library` | **Upstream Code PR** | [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) | ✅ Merged Upstream |
+| **Mitiq** *(Unitary Fund)* | `mitiq.zne.inference` | **Upstream Code PR** | [PR #1866](https://github.com/unitaryfund/mitiq/pull/1866) | ✅ Merged Upstream |
+| **PennyLane** *(Xanadu)* | `pennylane.ops` & `gradients` | **Upstream Code PRs** | [PR #5818](https://github.com/PennyLaneAI/pennylane/pull/5818) / [PR #2667](https://github.com/PennyLaneAI/pennylane/pull/2667) | ✅ Merged Upstream |
+
+---
+
+## 🌐 Live Web Portals & Published Mobile Applications
+
+### 💻 Enterprise Web Portals
+* **Monitor Health AI**: [`monitorhealth.ai`](https://monitorhealth.ai/) — Commercial AI healthcare landing page & sales engine.
+* **Remote Survey Portal**: [`survey.monitorhealth.ai`](https://survey.monitorhealth.ai) — HIPAA-compliant remote health survey platform.
+* **Institutional School Platform**: [`main.di10toj4buhn9.amplifyapp.com`](https://main.di10toj4buhn9.amplifyapp.com/) — Multi-tenant health tracking platform for schools.
+
+### 📱 Published Commercial Mobile Applications (App Store & Play Store)
+* **MAXX AI Voice Assistant**: [App Store](https://apps.apple.com/us/app/maxx/id6747980186) — Voice AI assistant with custom wake-word & multi-advisor flows via Millis.ai.
+* **Lead Yatra (Reliance / IndusInd)**: [App Store](https://apps.apple.com/in/app/lead-yatra/id6758609992) \| [Google Play](https://play.google.com/store/apps/details?id=com.rnlic.leadyatra) — Field sales lead capture & banking venue booking.
+* **Kokomo 24/7**: [App Store](https://apps.apple.com/us/app/kokomo24-7/id1504839321) — Scalable enterprise 24/7 service operations platform.
+* **FitWell | All-in-One**: [App Store](https://apps.apple.com/in/app/fitwell-all-in-one/id1641657795) — HIPAA-compliant wellness platform with biometric auth & private Jitsi video.
+* **InstaQuote 2.0 by HDFC Life**: [App Store](https://apps.apple.com/in/app/instaquote-2-0-by-hdfc-life/id6639613496) \| [Google Play](https://play.google.com/store/apps/details?id=com.hdfclife.instaquotev2) — Insurance quoting & financial calculations.
+
+---
+
+## 🌐 Engineering & Research Repositories
+
+| Repository | Focus | Key Highlights |
 | :--- | :--- | :--- |
-| **Original Research** | [`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart) | **Joint Architecture + Parameter Transformer for VQE**: 15K-param dual-head NumPy transformer predicting sparse entangling topologies and warm-start angles across multi-molecule families. Pre-registered hypothesis, 10-seed benchmarks, and published preprint ([DOI: 10.5281/zenodo.22013110](https://doi.org/10.5281/zenodo.22013110)). |
-| **Paper Reproduction** | [`quantum-zne-reproduction`](https://github.com/aashiq-parinda/quantum-zne-reproduction) | **Temme et al. 2017 Reproduction (PRL 119, 180509)**: Full verification of ZNE via unitary gate folding + Richardson extrapolation. Reproduces Figures 1–3, discrepancy analysis, and published report ([DOI: 10.5281/zenodo.21979332](https://doi.org/10.5281/zenodo.21979332)). |
-
-## 🌐 Engineering Projects
-
-| Repository | Focus | Highlights |
-| :--- | :--- | :--- |
-| [`quantum-hybrid-orchestration`](https://github.com/aashiq-parinda/quantum-hybrid-orchestration) | **Solutions Architecture / FDE** | Classical-Quantum hybrid pipeline, smart backend router, VQE & QAOA adaptability, 99.78% cost reduction analysis |
-| [`quantum-applied-applications`](https://github.com/aashiq-parinda/quantum-applied-applications) | **Drug Discovery & Hardware Benchmarks** | VQE helix biomolecule target screening, 2D/3D conformers, Schrödinger dynamics, randomized benchmarking & ZNE suite |
+| [`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart) | **GenAI × Quantum Research** | 15K-param dual-head NumPy transformer predicting sparse entangling topologies ($66.7\% - 83.1\%$ CX gate reduction) & VQE angles. |
+| [`quantum-hybrid-orchestration`](https://github.com/aashiq-parinda/quantum-hybrid-orchestration) | **Solutions Architecture / FDE** | Classical-Quantum hybrid pipeline, smart backend router (Sim vs QPU), job queue, **99.78% cost reduction** analysis |
+| [`quantum-applied-applications`](https://github.com/aashiq-parinda/quantum-applied-applications) | **Drug Discovery & Hardware Suite** | VQE helix biomolecule target screening, 2D/3D conformers, Schrödinger dynamics, randomized benchmarking & ZNE suite |
+| [`quantum-hpc-acceleration`](https://github.com/aashiq-parinda/quantum-hpc-acceleration) | **HPC & Acceleration** | Tensor-sliced $O(2^N)$ engine, 30-qubit memory scaling, vectorized NumPy `einsum` batching |
+| [`quantum-error-correction`](https://github.com/aashiq-parinda/quantum-error-correction) | **Fault Tolerance (QEC)** | Distance-$d$ Surface Code, 9-qubit Shor, 7-qubit Steane CSS code, MWPM decoding via PyMatching |
 | [`quantum-computing-foundations`](https://github.com/aashiq-parinda/quantum-computing-foundations) | **Quantum Foundations** | Grover $O(\sqrt{N})$, QFT, QPE, Deutsch-Jozsa, Teleportation |
-| [`quantum-simulation-noise`](https://github.com/aashiq-parinda/quantum-simulation-noise) | **Open Systems & Noise** | Density matrices $\rho$, Kraus channels, $T_1/T_2$, ZNE |
+| [`quantum-simulation-noise`](https://github.com/aashiq-parinda/quantum-simulation-noise) | **Open Systems & Noise** | Density matrices $\rho$, Kraus channels, $T_1/T_2$ relaxation, Zero Noise Extrapolation (ZNE) |
 | [`quantum-machine-learning`](https://github.com/aashiq-parinda/quantum-machine-learning) | **Quantum ML** | Parameter-Shift gradients, QNN, QSVC, Barren Plateaus |
 | [`quantum-chemistry-sim`](https://github.com/aashiq-parinda/quantum-chemistry-sim) | **Quantum Chemistry** | Jordan-Wigner, Molecular $H_2$/LiH, VQE, UCCSD |
-| [`quantum-error-correction`](https://github.com/aashiq-parinda/quantum-error-correction) | **Fault Tolerance (QEC)** | Repetition, Shor [[9,1,3]], Steane [[7,1,3]], Surface Code, MWPM |
 | [`quantum-shor-factoring`](https://github.com/aashiq-parinda/quantum-shor-factoring) | **Post-Quantum Crypto** | Modular exponentiation, QFT order finding, RSA factoring |
-| [`quantum-hpc-acceleration`](https://github.com/aashiq-parinda/quantum-hpc-acceleration) | **HPC & Acceleration** | Tensor-sliced $O(2^N)$ engine, 30-qubit memory scaling, einsum batching |
-
-## 🛠️ Open-Source Contributions & Ecosystem Case Studies
-
-### 🚀 Upstream Open-Source Pull Requests & Bug Fixes
-* **Qiskit SDK (`qiskit.circuit.library`)** — *IBM Quantum*:
-  * **Issue & PR**: Root cause analysis and upstream fix for [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) fixing custom register width propagation in `MultiplierGate` high-level synthesis decompositions.
-* **Mitiq (`mitiq.zne`)** — *Unitary Fund*:
-  * **Upstream PR**: [PR #1866](https://github.com/unitaryfund/mitiq/pull/1866) improving `noise_scaling_converter` module naming and extrapolation API consistency.
-* **PennyLane (`pennylane.ops` & `pennylane.gradients`)** — *Xanadu*:
-  * **Upstream PRs**: [PR #5818](https://github.com/PennyLaneAI/pennylane/pull/5818) (`QASM measure` support), [PR #2667](https://github.com/PennyLaneAI/pennylane/pull/2667) (`PSWAP` gate operation), [PR #2649](https://github.com/PennyLaneAI/pennylane/pull/2649) (`IsingXY` interaction generator), [PR #2062](https://github.com/PennyLaneAI/pennylane/pull/2062) (`Adjoint` identity/barrier methods).
-
-### 🔬 Ecosystem Deep-Dive Case Studies & SDK Verification
-* **Stim (Google Quantum AI) / PyMatching**: CSS Surface code stabilizer tableau extraction, Pauli error syndrome detection, and graph matching recovery case study.
 
 ---
 
-## 🛠️ Skills
+## 🛠️ Skills & Competencies
 
 ```
-Research:         Paper Reproduction, Falsifiable Hypotheses, Preprint Writing, Discrepancy Analysis
-Solutions Arch:   Hybrid Pipeline Orchestration, Smart Backend Routing, Cost & Latency Benchmarks
-Quantum:          VQE, QAOA, QFT, QPE, Error Correction, Shor's Algorithm, ZNE Mitigation
-GenAI:            Transformer Architectures, Self-Attention, Surrogate Models for Quantum Optimization
-HPC:              Tensor Contraction, Vectorized NumPy, Memory-Efficient Simulation (O(2^N))
-Languages:        Python (NumPy, SciPy), LaTeX, C++, Git, GitHub Actions
+Quantum & QSDKs:  Qiskit, PennyLane, Mitiq, Stim, PyMatching, PySCF, Cirq, Qiskit Nature
+GenAI & ML:       Transformer Architectures, Self-Attention, Multi-Objective Loss, Parameter-Shift Gradients, QNN, QSVC
+Software & Cloud: Flutter, React Native, Python (NumPy, SciPy), AWS (EC2, S3, ECS, Amplify), Supabase, Docker, CI/CD
+Security & VAPT:  HIPAA, PCI-DSS, Level 2 VAPT, SEBI/RBI Guidelines, Data Custodianship & Governance
 ```
 
 ---
 
-## 📬 Connect
+## 📬 Connect & Resume
 
-- 🌐 **Master Portfolio**: [quantum-engineering-portfolio](https://github.com/aashiq-parinda/quantum-engineering-portfolio)
-- 💼 **Open to**: Quantum Software Research, Solutions Architecture, Forward Deployed Engineering, GenAI × Science roles
-
----
-*"The good news is quantum computing will not break most encryption schemes in the near term. The bad news is I'm working on it anyway." — paraphrased*
+- 📄 **Master Resume (PDF)**: [`RESUME.pdf`](RESUME.pdf)
+- 🌐 **Master Portfolio Index**: [`quantum-engineering-portfolio`](https://github.com/aashiq-parinda/quantum-engineering-portfolio)
+- 📧 **Email**: [ashrafksalim1@gmail.com](mailto:ashrafksalim1@gmail.com)
+- 💼 **LinkedIn**: [linkedin.com/in/ashrafksalim](https://linkedin.com/in/ashrafksalim)
