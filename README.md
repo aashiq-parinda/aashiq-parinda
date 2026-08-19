@@ -18,6 +18,7 @@ I build research-grade quantum simulation engines, hybrid quantum-classical orch
 | Repository | Focus | Highlights |
 | :--- | :--- | :--- |
 | [`quantum-hybrid-orchestration`](https://github.com/aashiq-parinda/quantum-hybrid-orchestration) | **Solutions Architecture / FDE** | Classical-Quantum hybrid pipeline, smart backend router, VQE & QAOA adaptability, 99.78% cost reduction analysis |
+| [`quantum-applied-applications`](https://github.com/aashiq-parinda/quantum-applied-applications) | **Drug Discovery & Hardware Benchmarks** | VQE helix biomolecule target screening, 2D/3D conformers, Schrödinger dynamics, randomized benchmarking & ZNE suite |
 | [`quantum-computing-foundations`](https://github.com/aashiq-parinda/quantum-computing-foundations) | **Quantum Foundations** | Grover $O(\sqrt{N})$, QFT, QPE, Deutsch-Jozsa, Teleportation |
 | [`quantum-simulation-noise`](https://github.com/aashiq-parinda/quantum-simulation-noise) | **Open Systems & Noise** | Density matrices $\rho$, Kraus channels, $T_1/T_2$, ZNE |
 | [`quantum-machine-learning`](https://github.com/aashiq-parinda/quantum-machine-learning) | **Quantum ML** | Parameter-Shift gradients, QNN, QSVC, Barren Plateaus |
