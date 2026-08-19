@@ -26,9 +26,12 @@ I build research-grade quantum simulation engines, hybrid quantum-classical orch
 | [`quantum-shor-factoring`](https://github.com/aashiq-parinda/quantum-shor-factoring) | **Post-Quantum Crypto** | Modular exponentiation, QFT order finding, RSA factoring |
 | [`quantum-hpc-acceleration`](https://github.com/aashiq-parinda/quantum-hpc-acceleration) | **HPC & Acceleration** | Tensor-sliced $O(2^N)$ engine, 30-qubit memory scaling, einsum batching |
 
-## 🛠️ Open-Source Contributions & Case Studies
+## 🛠️ Open-Source Ecosystem Contributions & Case Studies
 
-* **Qiskit SDK (`MultiplierGate` Decomposition)**: Root cause analysis and reproduction for [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) fixing custom register width propagation in high-level synthesis multipliers.
+* **Qiskit SDK (`MultiplierGate` Synthesis)**: Root cause analysis and reproduction for [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) fixing custom register width propagation in high-level synthesis multipliers.
+* **Mitiq (Zero-Noise Extrapolation)**: Comparative benchmark of polynomial vs exact analytical Lagrange Richardson extrapolation in `mitiq.zne.inference`.
+* **PennyLane (Differentiable Quantum Gradients)**: Exact 2-term and 4-term Parameter-Shift Rule validation and operator algebra benchmarking.
+* **Stim / PyMatching (Fault Tolerance & QEC)**: CSS Surface code stabilizer tableau extraction, Pauli error syndrome detection, and graph matching recovery.
 
 ---
 
