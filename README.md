@@ -10,8 +10,8 @@ I build research-grade quantum simulation engines, hybrid quantum-classical orch
 
 | Type | Repository | Focus |
 | :--- | :--- | :--- |
-| **Original Research** | [`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart) | Transformer-predicted VQE warm-start parameters. 12K-param NumPy transformer. Falsifiable hypothesis. Preprint draft + literature review. |
-| **Paper Reproduction** | [`quantum-zne-reproduction`](https://github.com/aashiq-parinda/quantum-zne-reproduction) | Full reproduction of Temme et al. 2017 (PRL 119, 180509) — ZNE via gate folding + Richardson extrapolation. Figures 1–3 + discrepancy analysis. |
+| **Original Research** | [`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart) | **Joint Architecture + Parameter Transformer for VQE**: 15K-param dual-head NumPy transformer predicting sparse entangling topologies and warm-start angles across multi-molecule families. Pre-registered hypothesis, 10-seed benchmarks, and published preprint ([DOI: 10.5281/zenodo.22013110](https://doi.org/10.5281/zenodo.22013110)). |
+| **Paper Reproduction** | [`quantum-zne-reproduction`](https://github.com/aashiq-parinda/quantum-zne-reproduction) | **Temme et al. 2017 Reproduction (PRL 119, 180509)**: Full verification of ZNE via unitary gate folding + Richardson extrapolation. Reproduces Figures 1–3, discrepancy analysis, and published report ([DOI: 10.5281/zenodo.21979332](https://doi.org/10.5281/zenodo.21979332)). |
 
 ## 🌐 Engineering Projects
 
@@ -26,12 +26,16 @@ I build research-grade quantum simulation engines, hybrid quantum-classical orch
 | [`quantum-shor-factoring`](https://github.com/aashiq-parinda/quantum-shor-factoring) | **Post-Quantum Crypto** | Modular exponentiation, QFT order finding, RSA factoring |
 | [`quantum-hpc-acceleration`](https://github.com/aashiq-parinda/quantum-hpc-acceleration) | **HPC & Acceleration** | Tensor-sliced $O(2^N)$ engine, 30-qubit memory scaling, einsum batching |
 
-## 🛠️ Open-Source Ecosystem Contributions & Case Studies
+## 🛠️ Open-Source Contributions & Ecosystem Case Studies
 
-* **Qiskit SDK (`MultiplierGate` Synthesis)**: Root cause analysis and reproduction for [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) fixing custom register width propagation in high-level synthesis multipliers.
-* **Mitiq (Zero-Noise Extrapolation)**: Comparative benchmark of polynomial vs exact analytical Lagrange Richardson extrapolation in `mitiq.zne.inference`.
-* **PennyLane (Differentiable Quantum Gradients)**: Exact 2-term and 4-term Parameter-Shift Rule validation and operator algebra benchmarking.
-* **Stim / PyMatching (Fault Tolerance & QEC)**: CSS Surface code stabilizer tableau extraction, Pauli error syndrome detection, and graph matching recovery.
+### 🚀 Upstream Open-Source Pull Requests & Bug Fixes
+* **Qiskit SDK (`qiskit.circuit.library`)** — *IBM Quantum*:
+  * **Issue & PR**: Root cause analysis and upstream fix for [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) fixing custom register width propagation in `MultiplierGate` high-level synthesis decompositions.
+
+### 🔬 Ecosystem Deep-Dive Case Studies & SDK Verification
+* **Mitiq (Unitary Fund)**: Comparative numerical stability benchmark of Vandermonde polynomial fit vs analytical Lagrange Richardson extrapolation in `mitiq.zne.inference`.
+* **PennyLane (Xanadu)**: Exact analytical 2-term and 4-term Parameter-Shift Rule verification and operator algebra benchmarking.
+* **Stim (Google Quantum AI) / PyMatching**: CSS Surface code stabilizer tableau extraction, Pauli error syndrome detection, and graph matching recovery.
 
 ---
 
