@@ -26,6 +26,10 @@ I build research-grade quantum simulation engines, hybrid quantum-classical orch
 | [`quantum-shor-factoring`](https://github.com/aashiq-parinda/quantum-shor-factoring) | **Post-Quantum Crypto** | Modular exponentiation, QFT order finding, RSA factoring |
 | [`quantum-hpc-acceleration`](https://github.com/aashiq-parinda/quantum-hpc-acceleration) | **HPC & Acceleration** | Tensor-sliced $O(2^N)$ engine, 30-qubit memory scaling, einsum batching |
 
+## 🛠️ Open-Source Contributions & Case Studies
+
+* **Qiskit SDK (`MultiplierGate` Decomposition)**: Root cause analysis and reproduction for [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) fixing custom register width propagation in high-level synthesis multipliers.
+
 ---
 
 ## 🛠️ Skills
