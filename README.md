@@ -56,11 +56,7 @@ Former Senior Full-Stack Mobile & Cloud Engineer (5+ years, 10+ published apps a
 | [`quantum-chemistry-sim`](https://github.com/aashiq-parinda/quantum-chemistry-sim) | **Quantum Chemistry** | Jordan-Wigner, Molecular $H_2$/LiH, VQE, UCCSD |
 | [`quantum-shor-factoring`](https://github.com/aashiq-parinda/quantum-shor-factoring) | **Post-Quantum Crypto** | Modular exponentiation, QFT order finding, RSA factoring |
 
-## 🏆 IBM Quantum Credentials (Credly)
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/IBM_Quantum_System_One_logo.svg" alt="IBM Quantum Logo" width="300"/>
-</p>
+## <img src="./ibm_logo_white.svg" height="24" align="absmiddle"/> IBM Quantum Credentials (Credly)
 
 * **Quantum Chemistry with Variational Quantum Eigensolver (VQE)** | [Verify Badge](https://www.credly.com/badges/ffa133a1-98c3-4442-b64e-108c65cd4830/linked_in_profile)
 * **Basics of Quantum Information** | [Verify Badge](https://www.credly.com/badges/3c83776c-6cdc-4e26-a792-c6b8a13abc54)
