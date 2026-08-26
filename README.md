@@ -1,8 +1,8 @@
 # Hi there, I'm Ashraf Khan 👋
 
-### ⚛️ Senior Full-Stack & AI Engineer ➔ Quantum Computing Research Engineer & Solutions Architect
+### ⚛️ Senior Full-Stack Mobile Engineer ➔ Quantum Software & Research Engineer
 
-Former Senior Full-Stack Mobile & Cloud Engineer (5+ years, 10+ published apps across App Store & Google Play) transitioning into **Quantum Computing Research Engineering & Solutions Architecture (GenAI × Quantum)**. I build research-grade quantum simulation engines, hybrid quantum-classical orchestration pipelines, and original research at the intersection of generative AI and quantum algorithms from mathematical first principles.
+Former Senior Full-Stack Mobile Engineer (5+ years, 10+ published apps across App Store & Google Play) transitioning into **Quantum Software & Research Engineering (HPC × Qiskit)**. I build research-grade quantum simulation engines, hybrid quantum-classical orchestration pipelines, and original research at the intersection of generative AI and quantum algorithms from mathematical first principles.
 
 ---
 
@@ -47,6 +47,7 @@ Former Senior Full-Stack Mobile & Cloud Engineer (5+ years, 10+ published apps a
 | :--- | :--- | :--- |
 | [`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart) | **GenAI × Quantum Research** | 15K-param dual-head NumPy transformer predicting sparse entangling topologies ($66.7\% - 83.1\%$ CX gate reduction) & VQE angles. |
 | [`quantum-hybrid-orchestration`](https://github.com/aashiq-parinda/quantum-hybrid-orchestration) | **Solutions Architecture / FDE** | Classical-Quantum hybrid pipeline, smart backend router (Sim vs QPU), job queue, **99.78% cost reduction** analysis |
+| [`quantum-circuit-search`](https://github.com/aashiq-parinda/quantum-circuit-search) | **Quantum Architecture Search (QAS)** | Genetic Algorithm optimizer auto-discovering quantum circuits & solving graph Max-Cut combinatorial optimization vs. random brute-force. |
 | [`quantum-applied-applications`](https://github.com/aashiq-parinda/quantum-applied-applications) | **Drug Discovery & Hardware Suite** | VQE helix biomolecule target screening, 2D/3D conformers, Schrödinger dynamics, randomized benchmarking & ZNE suite |
 | [`quantum-hpc-acceleration`](https://github.com/aashiq-parinda/quantum-hpc-acceleration) | **HPC & Acceleration** | Tensor-sliced $O(2^N)$ engine, 30-qubit memory scaling, vectorized NumPy `einsum` batching |
 | [`quantum-error-correction`](https://github.com/aashiq-parinda/quantum-error-correction) | **Fault Tolerance (QEC)** | Distance-$d$ Surface Code, 9-qubit Shor, 7-qubit Steane CSS code, MWPM decoding via PyMatching |
