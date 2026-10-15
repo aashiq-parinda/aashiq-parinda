@@ -32,6 +32,11 @@ Accomplished **Forward Deployed Engineer (FDE) & Multi-Cloud Solutions Architect
 * **Technical Core:** LangGraph-compatible 8-node state graph orchestrator (`INGEST` ➡️ `DIAGNOSE` ➡️ `PLAN` ➡️ `APPROVAL_GATE` ➡️ `EXECUTE` ➡️ `VERIFY` ➡️ `FINALIZE` / `ROLLBACK`). Integrates a tool-calling registry (`scale_service`, `restart_pod`, `optimize_db_pool`, `flush_redis_cache`), a Saga-pattern compensating transaction engine for automated rollback, an immutable append-only cryptographic audit ledger (SHA-256 chained hashing), and human-in-the-loop approval gating for high-risk interventions.
 * **Impact & Metrics:** **87% MTTR Reduction** (from 24.5 min to 3.2 min), **100% HITL Approval Gate Enforcement**, **100% Tool Selection Accuracy**, and zero-tampering audit compliance.
 
+### 5. **Contract Clause Risk Review & PEFT Agent** | [Hugging Face Live Demo](https://huggingface.co/spaces/ashrafksalim/contract-clause-risk-review) · [`contract-risk-review`](https://github.com/aashiq-parinda/LLM-Fine-Tuning-Agentic-Reasoning-for-Contract-Risk-Review)
+* **Enterprise Problem:** Enterprise legal teams spend hours manually parsing high-risk clauses (indemnification, governing law, termination) across commercial agreements.
+* **Technical Core:** Parameter-efficient fine-tuning (LoRA) on `microsoft/deberta-v3-small` over the SEC LEDGAR dataset for clause classification; wrapped in a LangGraph state machine with Chroma RAG for precedent retrieval, LLM plain-English risk summarization, and confidence-threshold human escalation guardrails.
+* **Impact & Metrics:** Deployed interactive **Hugging Face Space** evaluating classifier accuracy, macro-F1, per-category fairness metrics, and confidence-routed human-in-the-loop fallback queues.
+
 ---
 
 ## 🌐 Published Commercial Mobile Applications & Enterprise Portals
