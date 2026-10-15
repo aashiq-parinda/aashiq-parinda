@@ -1,63 +1,63 @@
 # Ashraf Khan
-**Full-Stack Mobile & AI Engineer · Solutions Architect · Quantum Computing Research Engineer**  
+**Forward Deployed Engineer (FDE) · Multi-Cloud Solutions Architect · Senior Full-Stack Systems Engineer**  
 📍 Mumbai, Maharashtra, India | 📧 [ashrafksalim1@gmail.com](mailto:ashrafksalim1@gmail.com) | 📞 +91-8779559898  
 🌐 **GitHub**: [github.com/aashiq-parinda](https://github.com/aashiq-parinda) | 💼 **LinkedIn**: [linkedin.com/in/ashrafksalim](https://linkedin.com/in/ashrafksalim) | 📱 **10+ Published Apps** (App Store & Play Store)  
 
 ---
 
 ## 🎯 Professional Executive Summary
-Accomplished **Full-Stack Mobile Application Engineer (5+ years experience, 10+ published commercial apps)** transitioning into **Quantum Computing Research Engineering & Solutions Architecture (GenAI × Quantum)**. Combines deep production software engineering expertise (Flutter, React Native, Python), self-hosted private cloud infrastructures (AWS EC2, Supabase, Jitsi Meet), and enterprise data security (HIPAA, PCI-DSS, Level 2 VAPT) with original mathematical research in Transformer parameter/topology warm-starting for VQE. Author of two published research preprints (Zenodo) and active upstream open-source code contributor to **Qiskit (IBM Quantum)**, **Mitiq (Unitary Fund)**, and **PennyLane (Xanadu)**.
+Accomplished **Forward Deployed Engineer (FDE) & Multi-Cloud Solutions Architect** with **5+ years of production software engineering experience**, **10+ published commercial applications**, and **4 enterprise FDE system deployments**. Specializes in bridging enterprise operational challenges with resilient multi-cloud architectures (AWS Fargate, Azure Container Apps, Kubernetes HPA, Terraform IaC, TimescaleDB, PostgreSQL), zero-trust security governance (HIPAA, PCI-DSS, Level 2 VAPT, SEBI/RBI standards), agentic AI workflows (LangGraph, Tool Calling, Human-in-the-Loop Governance, Compensating Transactions), and high-throughput microservices (FastAPI, Flask, Node.js, gRPC). Proven track record of delivering direct enterprise financial impact, including **₹4.5 Crore/yr integration savings**, **₹1.8 Crore/yr administrative savings**, **₹25.20 Crore/yr line-halt prevention**, and **87% incident MTTR reduction**.
 
 ---
 
-## 🌐 Live Portals & Commercial Mobile Applications
+## 🏗️ Forward Deployed Engineering (FDE) & Multi-Cloud Portfolio Projects
 
-### 💻 Enterprise Web Portals & Ecosystems
+### 1. **Industrial Predictive Maintenance Telemetry Platform** | [`industrial-predictive-maintenance`](https://github.com/aashiq-parinda/master-fde-resume-portfolio/tree/main/industrial-predictive-maintenance)
+* **Enterprise Problem:** Provisioned real-time predictive telemetry pipeline for a Tier-1 automotive manufacturer losing **₹25.20 Crore/year** to stamping line halting.
+* **Technical Core:** Edge vibration, temperature, and RPM telemetry stream processed using statistical Z-scores, Redis pub/sub buffers, and an `IsolationForest` ML model for failure prediction. Built real-time sensor drift detection (Population Stability Index [PSI] & Kolmogorov-Smirnov test), automated evaluation benchmark suite (ROC-AUC/PR-AUC), Prometheus `/metrics`, Kubernetes manifests (`Deployment`, `Service`, `HPA`), and Terraform IaC for AWS.
+* **Impact & Metrics:** **12.4ms telemetry ingestion-to-detection latency**, **₹90 Lakhs/month net savings**, **421% Year 1 ROI**, **2.3-month payback period**, and **100% test pass rate across 19 unit tests**.
+
+### 2. **Healthcare Patient Intake & AI Safety Flagship Platform** | [`healthcare-intake-summarization`](https://github.com/aashiq-parinda/master-fde-resume-portfolio/tree/main/healthcare-intake-summarization)
+* **Enterprise Problem:** Engineered patient charting, triage, and RAG summarization system for a clinic network processing **15,000+ monthly patient intakes**, where medical liability rules strictly prohibit LLM-generated diagnoses.
+* **Technical Core:** **Hybrid RAG** combining sparse BM25 and dense clinical semantic vector embeddings via Reciprocal Rank Fusion (`k=60`), paired with a 6-cluster Contextual Cross-Encoder Reranker. Generated summaries include exact inline provenance citation markers (`[^1]`) linked to authoritative clinical guidelines with groundedness scoring. Programmatic multi-layer safety filter enforces a 100+ term medical blacklist, syntactic assertions, and PHI regex scrubbers with distributed span micro-tracing.
+* **Impact & Metrics:** **0.0% Diagnostic Leakage Rate** (guaranteed), **100% Adversarial Injection Defense**, **90% Triage Concordance**, **87.5% Groundedness**, **p50 retrieval latency under 5ms**, physician reading time cut by **85%** (under 45s), and **₹1.8 Crore/year administrative savings**.
+
+### 3. **Enterprise Multi-Cloud Integration & Failover Platform** | [`enterprise-integration-platform`](https://github.com/aashiq-parinda/master-fde-resume-portfolio/tree/main/enterprise-integration-platform)
+* **Enterprise Problem:** Consolidated four legacy transactional feeds (REST API, legacy SOAP/XML, mainframe CSV files, and signed webhooks) into a unified relational schema for an acquired distributor.
+* **Technical Core:** Cryptographic SHA-256 idempotency locking (`PENDING`, `COMPLETED`, `FAILED` state machine), circuit breakers (`CLOSED`, `OPEN`, `HALF_OPEN`) with exponential backoff and jitter, Dead Letter Queue (DLQ) replay engine, and active-passive automated multi-cloud failover/failback between AWS and Azure. Complete multi-cloud infrastructure abstraction built with Terraform.
+* **Impact & Metrics:** **100% Data Preservation** via DLQ routing and idempotency, **₹4.5 Crore/year integration savings**, and a documented multi-cloud financial model proving Azure Container Apps is **30% cheaper** than AWS ECS Fargate due to built-in ingress and route tables eliminating ALB and NAT Gateway minimum fees.
+
+### 4. **Enterprise Operations AI Agent (Autonomous Remediation with HITL Governance)** | [`enterprise-operations-agent`](https://github.com/aashiq-parinda/master-fde-resume-portfolio/tree/main/enterprise-operations-agent)
+* **Enterprise Problem:** Built autonomous cloud infrastructure remediation agent resolving operational incidents (pod memory leaks, DB connection pool exhaustion, cache staleness, service latency spikes) while enforcing strict human oversight and zero-tampering compliance.
+* **Technical Core:** LangGraph-compatible 8-node state graph orchestrator (`INGEST` ➡️ `DIAGNOSE` ➡️ `PLAN` ➡️ `APPROVAL_GATE` ➡️ `EXECUTE` ➡️ `VERIFY` ➡️ `FINALIZE` / `ROLLBACK`). Integrates a tool-calling registry (`scale_service`, `restart_pod`, `optimize_db_pool`, `flush_redis_cache`), a Saga-pattern compensating transaction engine for automated rollback, an immutable append-only cryptographic audit ledger (SHA-256 chained hashing), and human-in-the-loop approval gating for high-risk interventions.
+* **Impact & Metrics:** **87% MTTR Reduction** (from 24.5 min to 3.2 min), **100% HITL Approval Gate Enforcement**, **100% Tool Selection Accuracy**, and zero-tampering audit compliance.
+
+---
+
+## 🌐 Published Commercial Mobile Applications & Enterprise Portals
+
+### 📱 Published Commercial Mobile Applications (App Store & Play Store)
+* **Lead Yatra (Reliance / IndusInd Bank)**: [App Store Link](https://apps.apple.com/in/app/lead-yatra/id6758609992) | [Google Play Link](https://play.google.com/store/apps/details?id=com.rnlic.leadyatra) — Enterprise field sales lead capture & banking venue booking system powering IndusInd Bank operations.
+* **MAXX AI Voice Assistant**: [App Store Link](https://apps.apple.com/us/app/maxx/id6747980186) — Enterprise voice AI assistant with custom wake-word activation & multi-advisor conversational flows via Millis.ai.
+* **Kokomo 24/7**: [App Store Link](https://apps.apple.com/us/app/kokomo24-7/id1504839321) — Scalable enterprise 24/7 operational service management platform.
+* **FitWell | All-in-One**: [App Store Link](https://apps.apple.com/in/app/fitwell-all-in-one/id1641657795) — HIPAA-compliant health platform with biometric auth, CDC/CMS reporting, and private Jitsi video consultations.
+* **InstaQuote 2.0 by HDFC Life**: [App Store Link](https://apps.apple.com/in/app/instaquote-2-0-by-hdfc-life/id6639613496) | [Google Play Link](https://play.google.com/store/apps/details?id=com.hdfclife.instaquotev2) — Instant insurance quoting & financial premium calculation engine.
+
+### 💻 Enterprise Web Portals
 * **Monitor Health AI (Primary Landing)**: [`monitorhealth.ai`](https://monitorhealth.ai/) — Commercial AI healthcare landing page & sales engine.
 * **Remote Survey Portal**: [`survey.monitorhealth.ai`](https://survey.monitorhealth.ai) — HIPAA-compliant remote health survey platform.
 * **Institutional School Platform**: [`main.di10toj4buhn9.amplifyapp.com`](https://main.di10toj4buhn9.amplifyapp.com/) — Multi-tenant health tracking platform for educational institutions.
-
-### 📱 Published Commercial Mobile Applications (App Store & Play Store)
-* **MAXX AI Voice Assistant**: [App Store Link](https://apps.apple.com/us/app/maxx/id6747980186) — Voice AI assistant featuring custom wake-word & multi-advisor flows via Millis.ai.
-* **Lead Yatra (Reliance / IndusInd)**: [App Store Link](https://apps.apple.com/in/app/lead-yatra/id6758609992) | [Google Play Link](https://play.google.com/store/apps/details?id=com.rnlic.leadyatra) — Enterprise field sales lead capture & banking venue booking.
-* **Kokomo 24/7**: [App Store Link](https://apps.apple.com/us/app/kokomo24-7/id1504839321) — Scalable enterprise 24/7 operational service management platform.
-* **FitWell | All-in-One**: [App Store Link](https://apps.apple.com/in/app/fitwell-all-in-one/id1641657795) — HIPAA-compliant health platform with biometric auth, CDC/CMS reporting, and private Jitsi video consultations.
-* **InstaQuote 2.0 by HDFC Life**: [App Store Link](https://apps.apple.com/in/app/instaquote-2-0-by-hdfc-life/id6639613496) | [Google Play Link](https://play.google.com/store/apps/details?id=com.hdfclife.instaquotev2) — Instant insurance quoting & premium calculation engine.
-
----
-
-## 🔬 Original Quantum Research & Zenodo Published Preprints
-
-* **Ashraf Khan (2026)**. *Transformer-Accelerated Variational Quantum Eigensolvers via Joint Architecture and Parameter Warm-Starting: A Multi-Molecule Empirical Study.* Zenodo Research Preprint. **DOI**: [10.5281/zenodo.22013110](https://doi.org/10.5281/zenodo.22013110).
-  * Designed a 15,436-parameter pure-NumPy dual-head Transformer encoder predicting sparse entangling qubit-pair masks and warm-start rotation angles from molecular Hamiltonian Pauli tokens.
-  * Achieved **66.7% to 83.1% 2-qubit (CX) gate count reduction** across $H_2$, $\text{LiH}$, $\text{BeH}_2$, and $H_4$ chain while maintaining energy convergence.
-  * Formulated pre-registered falsifiable diagnostic criteria and direct gradient variance scaling analysis ($\text{Var}[\partial E / \partial \theta]$) identifying barren plateau onset at 8 qubits.
-
-* **Ashraf Khan (2026)**. *Zero-Noise Extrapolation for Quantum Error Mitigation: A Systematic Reproduction & Discrepancy Study of Temme et al. (2017).* Zenodo Research Report. **DOI**: [10.5281/zenodo.21979332](https://doi.org/10.5281/zenodo.21979332).
-  * Built complete mathematical reproduction of Temme et al. (PRL 119, 180509) implementing unitary gate folding $U \to U(U^\dagger U)^n$ and analytical Lagrange Richardson extrapolation.
-  * Replicated Figures 1–3 and published quantitative discrepancy analysis under depolarizing and coherent amplitude damping noise models.
-
----
-
-## 🚀 Upstream Open-Source Code Contributions
-
-* **IBM Quantum — Qiskit SDK (`qiskit.circuit.library`)**:
-  * **Upstream PR #16394 & Issue #16168**: Identified and resolved a root-cause bug in `MultiplierGate` high-level synthesis where custom register width configurations were incorrectly truncated during circuit decomposition. Merged upstream into Qiskit core.
-* **Unitary Fund — Mitiq (`mitiq.zne`)**:
-  * **Upstream PR #1866**: Improved naming conventions and API consistency in `noise_scaling_converter` module for zero-noise extrapolation workflows. Merged upstream.
-* **Xanadu — PennyLane (`pennylane.ops` & `pennylane.gradients`)**:
-  * **Upstream PRs #5818, #2667, #2649, #2062**: Authored QASM measurement parser integration, `PSWAP` gate operator, `IsingXY` interaction generator, and `Adjoint` methods for identity/barrier ops. Merged upstream.
 
 ---
 
 ## 💼 Professional Experience
 
-### **Senior Mobile Application Engineer** | Logicloop *(Mumbai, India | Jan 2026 – Present)*
+### **Senior Software & Systems Engineer** | Logicloop *(Mumbai, India | Jan 2026 – Present)*
 * **Lead Yatra (Reliance IndusInd)**: Architected cross-platform Flutter application optimizing field sales lead capture and venue booking at enterprise scale, securing banking data for IndusInd Bank operations.
 * **MAXX AI Voice Assistant**: Developed end-to-end AI voice assistant featuring custom wake-word activation and multi-advisor conversational flows powered by Millis.ai.
 * **Team Leadership & DevOps**: Led 3 developers, established GitHub Actions CI/CD pipelines (40% deployment overhead reduction), and enforced Level 2 VAPT security standards across financial flows.
 
-### **Full-Stack Developer** | Fitwell Technologies Inc. *(Remote – VA, USA | Jun 2025 – Present)*
+### **Full-Stack Developer & Data Custodian** | Fitwell Technologies Inc. *(Remote – VA, USA | Jun 2025 – Present)*
 * **Monitor Health AI Ecosystem**: Built commercial landing page (`monitorhealth.ai`), remote survey portal (`survey.monitorhealth.ai`), and multi-tenant institutional school platform (`amplifyapp.com`).
 * **Private Cloud & Telehealth Video**: Deployed Flask microservices on AWS (EC2, S3, ELB), private Supabase cloud backend on EC2 for PHI data isolation, hosted private Jitsi Meet server for HIPAA-compliant consultations, and integrated Amazon Connect workflows.
 * **Data Custodianship & Compliance**: Owned PHI data governance as data custodian, maintaining zero data breach posture and Level 2 VAPT security.
@@ -84,25 +84,14 @@ Accomplished **Full-Stack Mobile Application Engineer (5+ years experience, 10+ 
 
 ---
 
-## 🛠️ Open-Source Portfolio Repositories & Notebook Suites
-
-* **[`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart)**: Pure NumPy 15K-param dual-head Transformer predicting sparse entangling topologies ($N_{\text{CX}}$ reduction) and VQE rotation angles $\theta_0$. Multi-molecule 10-seed benchmarks ($p < 0.05$).
-* **[`quantum-hybrid-orchestration`](https://github.com/aashiq-parinda/quantum-hybrid-orchestration)**: Classical-Quantum hybrid orchestration pipeline with smart backend router (Sim vs. QPU), achieving **99.78% execution cost reduction** across VQE and QAOA workloads.
-* **[`quantum-applied-applications`](https://github.com/aashiq-parinda/quantum-applied-applications)**: Applied Drug Discovery VQE Helix suite (`drug_discovery_vqe_helix.ipynb` — biomolecule target screening, 2D/3D conformers, Jordan-Wigner transform) and Quantum Hardware Benchmarking Suite (`quantum-validation-suite.ipynb` — Schrödinger dynamics, RB, $T_1/T_2$ noise, ZNE).
-* **[`quantum-hpc-acceleration`](https://github.com/aashiq-parinda/quantum-hpc-acceleration)**: Tensor-sliced $O(2^N)$ statevector simulation engine using vectorized NumPy `einsum` contraction (scaling to 30 qubits).
-* **[`quantum-error-correction`](https://github.com/aashiq-parinda/quantum-error-correction)**: Distance-$d$ Surface Code stabilizer tableau extraction, Pauli syndrome detection, 9-qubit Shor code, 7-qubit Steane CSS code, and MWPM decoding via PyMatching.
-
----
-
 ## 💻 Technical Skills & Core Competencies
 
-* **Mobile Engineering**: Flutter (Lead), React Native, Android (Java/Kotlin), iOS (Swift), Cross-Platform Architecture.
-* **Web & Frontend Engineering**: React, Modern Web Architecture, Responsive SaaS / Landing Page Development.
-* **Backend, Microservices & Real-Time**: Python / Flask, Node.js, REST, GraphQL, gRPC, Protobuf, Hosted Private Jitsi Meet Server, WebSockets.
-* **Databases & Custom Cloud Deployments**: Private Supabase Cloud on AWS EC2, Supabase (Realtime Postgres), Amazon Aurora, PostgreSQL, DBeaver.
-* **Cloud & DevOps**: AWS (EC2, S3, ELB, ECS, App Runner, Amplify), Amazon Connect, GCP, Docker, GitHub Actions CI/CD.
-* **AI/ML & Computer Vision**: PyTorch, TensorFlow, OpenCV, Voice AI (Millis.ai), LLM Integration (Claude, GPT), Prompt Engineering, Transformers.
-* **Quantum Software & SDKs**: Qiskit, Qiskit Nature, PennyLane, Mitiq, Stim, PyMatching, PySCF, Cirq.
+* **Agentic AI & Orchestration**: LangGraph, StateGraph State Machines, LangSmith (Tracing, Evals, Debugging & Monitoring), Tool Calling Registries, Human-In-The-Loop (HITL) Gating, Saga Compensating Transactions, Cryptographic Audit Ledgers.
+* **Retrieval-Augmented Generation (RAG) & Safety**: Hybrid Retrieval (BM25 Sparse + Dense Clinical Semantic Vectors), Reciprocal Rank Fusion (RRF), Contextual Cross-Encoder Rerankers, Provenance Citations, Programmatic Safety Filters (0.0% Diagnostic Leakage), Distributed Span Micro-Tracing.
+* **Multi-Cloud & Infrastructure**: Terraform (IaC), AWS (Fargate, ECS, EKS, EC2, S3, ELB, App Runner, RDS, VPC), Azure (Container Apps), GCP, Kubernetes (Deployments, Services, HPA), Docker, GitHub Actions CI/CD.
+* **Data & Streaming Engineering**: TimescaleDB, PostgreSQL (asyncpg, Full-Text Search, pgvector), Redis Pub/Sub, Cryptographic Idempotency Locking, Circuit Breakers (Half-Open), Dead Letter Queues (DLQ), Exponential Backoff Jitter.
+* **Software & Systems Engineering**: Python (FastAPI Async, Pydantic V2, Flask), Node.js, Flutter (Lead), React Native, Android (Java/Kotlin), iOS (Swift), REST, gRPC, Protobuf, WebSockets.
+* **ML & Predictive Analytics**: scikit-learn (`IsolationForest` Telemetry), Population Stability Index (PSI), Kolmogorov-Smirnov (KS) Drift Detection, ROC-AUC / PR-AUC Benchmark Evaluation, OpenCV.
 * **Compliance & Security**: HIPAA, PCI-DSS, SEBI / RBI Guidelines, CDC/CMS Health Reporting, Data Custodianship & Governance, Level 2 VAPT, Biometric Auth, eKYC, Digio eSign.
 
 ---
@@ -113,14 +102,9 @@ Accomplished **Full-Stack Mobile Application Engineer (5+ years experience, 10+ 
 * **B.Sc. in Computer Science** | Rizvi College, Mumbai University *(2017 – 2020)* — **CGPA:** 9.33 / 10.00
 * **Vocational Computer Science / HSC (12th)** | M.H. Saboo Siddik Polytechnic, Mumbai *(2015 – 2017)* — **Percentage:** 75.80%
 
-### **Certifications**
-* **IBM Quantum Credentials (Credly)**:
-  * **Quantum Chemistry with Variational Quantum Eigensolver (VQE)** | *Issued Oct 2025* | [Verify Badge](https://www.credly.com/badges/ffa133a1-98c3-4442-b64e-108c65cd4830/linked_in_profile)
-  * **Basics of Quantum Information** | [Verify Badge](https://www.credly.com/badges/3c83776c-6cdc-4e26-a792-c6b8a13abc54)
-  * **Quantum Machine Learning** | [Verify Badge](https://www.credly.com/badges/93684391-002b-46a2-8c16-1b935151eb02)
-  * **Practical Introduction to Quantum-Safe Cryptography** | [Verify Badge](https://www.credly.com/badges/245ca28b-378d-473e-92fd-2c525be4b769)
-  * **Quantum Business Foundations** | [Verify Badge](https://www.credly.com/badges/4ed95a55-f4fe-40fa-a113-2a1508b8fa6e)
-  * **Credly Profile**: [credly.com/users/ashraf-khan.729bf623](https://www.credly.com/users/ashraf-khan.729bf623/badges/credly)
-* **AI & Emerging Tech**: AI & Quantum Computing Mastery, Machine Learning with Python, Complete Quantum Computing Course.
-* **Cloud & DevOps**: AWS Solutions Architect Associate, AWS & React Deployment | DevOps Fundamentals.
-* **Compliance**: Bioinformatics: Genomics & Proteomics; Healthcare API Compliance & HIPAA Data Practices; FinTech Regulatory Standards & PCI-DSS Payment Systems.
+### **AI & Professional Certifications**
+* **LangChain**: [Quickstart: LangSmith Essentials](https://academy.langchain.com/certificates/rlwlwmnqzc) *(Issued Oct 2026 · Credential ID: `rlwlwmnqzc`)* — Developing, debugging, tracing, monitoring, and evaluating LLM and agentic workflows.
+* **Claude Academy**: AI Fluency: Framework & Foundations | Human-Agent Teams | Claude Platform 101.
+* **Healthcare Compliance**: Healthcare API Compliance & HIPAA PHI Data Governance.
+* **FinTech Standards**: FinTech Regulatory Standards & PCI-DSS Payment Processing.
+* **Bioinformatics & Genomics**: Genomics & Proteomics Analysis.
