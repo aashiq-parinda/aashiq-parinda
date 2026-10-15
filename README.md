@@ -10,6 +10,7 @@ Senior Full-Stack & Systems Engineer · Specializing in AI Forward Deployed Engi
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ashrafksalim-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/ashrafksalim)
 [![Email](https://img.shields.io/badge/Email-ashrafksalim1%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:ashrafksalim1@gmail.com)
 [![Portfolio](https://img.shields.io/badge/FDE_Master_Portfolio-View_Projects-blueviolet?style=flat&logo=github)](https://github.com/aashiq-parinda/master-fde-resume-portfolio)
+[![LangGraph Certified](https://img.shields.io/badge/LangGraph-Certified-1C3C3C?style=flat&logo=langchain)](https://academy.langchain.com/certificates/1hhanf8ox7)
 [![LangSmith Certified](https://img.shields.io/badge/LangChain-LangSmith_Certified-blue?style=flat&logo=langchain)](https://academy.langchain.com/certificates/rlwlwmnqzc)
 [![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging_Face-Contract_Risk_Review_Live-yellow)](https://huggingface.co/spaces/ashrafksalim/contract-clause-risk-review)
 
@@ -90,6 +91,7 @@ Security Standards: HIPAA PHI Governance, Level 2 VAPT, PCI-DSS, SEBI / RBI Guid
 
 ## 📜 Certifications & Credentials
 
+* 🏅 **LangChain**: [Quickstart: LangGraph Essentials - Python](https://academy.langchain.com/certificates/1hhanf8ox7) *(Credential ID: `1hhanf8ox7` · Oct 2026 – Oct 2028)* — StateGraph orchestration, State, Nodes, Edges, and Checkpointer memory.
 * 🏅 **LangChain**: [Quickstart: LangSmith Essentials](https://academy.langchain.com/certificates/rlwlwmnqzc) *(Credential ID: `rlwlwmnqzc` · Issued Oct 2026)* — Developing, debugging, tracing, monitoring, and evaluating LLM and agentic workflows.
 * ☁️ **Google Cloud**: [Introduction to Generative AI Badge](https://www.skills.google/public_profiles/c0e9e44f-59b6-4e05-b972-7da8fd405a4a/badges/9066294) *(Issued May 2024)*.
 * 🧬 **Reliance Foundation & Skill India (NSDC)**: Foundation Course in Bioinformatics *(90-Hour Intensive Program · Completed Dec 2025)* — Computational genomics, molecular bioinformatics, and disease modeling.
