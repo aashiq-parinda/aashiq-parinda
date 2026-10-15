@@ -108,6 +108,7 @@ Accomplished **Forward Deployed Engineer (FDE) & Multi-Cloud Solutions Architect
 * **Vocational Computer Science / HSC (12th)** | M.H. Saboo Siddik Polytechnic, Mumbai *(2015 – 2017)* — **Percentage:** 75.80%
 
 ### **AI & Professional Certifications**
+* **LangChain**: [Project: Deep Research with LangGraph](https://academy.langchain.com/certificates/yn40p3bviz) *(Issued Oct 2026 · Credential ID: `yn40p3bviz`)* — Multi-agent research architecture, recursive search planning, iterative synthesis, and LangSmith evaluation.
 * **LangChain**: [Quickstart: LangGraph Essentials - Python](https://academy.langchain.com/certificates/1hhanf8ox7) *(Issued Oct 2026 · Credential ID: `1hhanf8ox7`)* — StateGraph orchestration, State schemas, Nodes, Edges, and Checkpointer memory.
 * **LangChain**: [Quickstart: LangSmith Essentials](https://academy.langchain.com/certificates/rlwlwmnqzc) *(Issued Oct 2026 · Credential ID: `rlwlwmnqzc`)* — Developing, debugging, tracing, monitoring, and evaluating LLM and agentic workflows.
 * **Google Cloud**: [Introduction to Generative AI Badge](https://www.skills.google/public_profiles/c0e9e44f-59b6-4e05-b972-7da8fd405a4a/badges/9066294) *(Issued May 2024)*.

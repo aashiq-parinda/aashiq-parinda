@@ -91,6 +91,7 @@ Security Standards: HIPAA PHI Governance, Level 2 VAPT, PCI-DSS, SEBI / RBI Guid
 
 ## 📜 Certifications & Credentials
 
+* 🏅 **LangChain**: [Project: Deep Research with LangGraph](https://academy.langchain.com/certificates/yn40p3bviz) *(Credential ID: `yn40p3bviz` · Oct 2026 – Oct 2028)* — Multi-agent research architecture, recursive search planning, iterative synthesis, and LangSmith evaluation.
 * 🏅 **LangChain**: [Quickstart: LangGraph Essentials - Python](https://academy.langchain.com/certificates/1hhanf8ox7) *(Credential ID: `1hhanf8ox7` · Oct 2026 – Oct 2028)* — StateGraph orchestration, State, Nodes, Edges, and Checkpointer memory.
 * 🏅 **LangChain**: [Quickstart: LangSmith Essentials](https://academy.langchain.com/certificates/rlwlwmnqzc) *(Credential ID: `rlwlwmnqzc` · Issued Oct 2026)* — Developing, debugging, tracing, monitoring, and evaluating LLM and agentic workflows.
 * ☁️ **Google Cloud**: [Introduction to Generative AI Badge](https://www.skills.google/public_profiles/c0e9e44f-59b6-4e05-b972-7da8fd405a4a/badges/9066294) *(Issued May 2024)*.
