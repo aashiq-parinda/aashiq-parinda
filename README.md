@@ -89,6 +89,8 @@ Security Standards: HIPAA PHI Governance, Level 2 VAPT, PCI-DSS, SEBI / RBI Guid
 ## 📜 Certifications & Credentials
 
 * 🏅 **LangChain**: [Quickstart: LangSmith Essentials](https://academy.langchain.com/certificates/rlwlwmnqzc) *(Credential ID: `rlwlwmnqzc` · Issued Oct 2026)* — Developing, debugging, tracing, monitoring, and evaluating LLM and agentic workflows.
+* ☁️ **Google Cloud**: [Introduction to Generative AI Badge](https://www.skills.google/public_profiles/c0e9e44f-59b6-4e05-b972-7da8fd405a4a/badges/9066294) *(Issued May 2024)*.
+* 🧬 **Reliance Foundation & Skill India (NSDC)**: Foundation Course in Bioinformatics *(90-Hour Intensive Program · Completed Dec 2025)* — Computational genomics, molecular bioinformatics, and disease modeling.
 * 🎓 **Claude Academy**: AI Fluency: Framework & Foundations \| Human-Agent Teams \| Claude Platform 101.
 * 🛡️ **Healthcare & FinTech Compliance**: Healthcare API Compliance & HIPAA PHI Data Governance \| FinTech Regulatory Standards & PCI-DSS.
 * ⚛️ **IBM Quantum Credentials (Credly)**: [Verify All IBM Quantum Badges](https://www.credly.com/users/ashraf-khan.729bf623/badges/credly) (VQE, Quantum Information, QML, Quantum-Safe Crypto).

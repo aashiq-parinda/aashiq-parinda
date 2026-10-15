@@ -104,7 +104,7 @@ Accomplished **Forward Deployed Engineer (FDE) & Multi-Cloud Solutions Architect
 
 ### **AI & Professional Certifications**
 * **LangChain**: [Quickstart: LangSmith Essentials](https://academy.langchain.com/certificates/rlwlwmnqzc) *(Issued Oct 2026 · Credential ID: `rlwlwmnqzc`)* — Developing, debugging, tracing, monitoring, and evaluating LLM and agentic workflows.
+* **Google Cloud**: [Introduction to Generative AI Badge](https://www.skills.google/public_profiles/c0e9e44f-59b6-4e05-b972-7da8fd405a4a/badges/9066294) *(Issued May 2024)*.
 * **Claude Academy**: AI Fluency: Framework & Foundations | Human-Agent Teams | Claude Platform 101.
-* **Healthcare Compliance**: Healthcare API Compliance & HIPAA PHI Data Governance.
-* **FinTech Standards**: FinTech Regulatory Standards & PCI-DSS Payment Processing.
-* **Bioinformatics & Genomics**: Genomics & Proteomics Analysis.
+* **Reliance Foundation & Skill India (NSDC)**: Foundation Course in Bioinformatics *(90-Hour Intensive Program | Certified Dec 2025)* — Computational biology, genomics data structures, and molecular informatics.
+* **Healthcare & FinTech Compliance**: Healthcare API Compliance & HIPAA PHI Data Governance | FinTech Regulatory Standards & PCI-DSS Payment Processing.
