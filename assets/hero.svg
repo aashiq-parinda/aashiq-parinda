@@ -57,8 +57,7 @@
     .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     .tag-badge { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; fill: #E5B5C7; }
     .hero-title { font-size: 46px; font-weight: 800; letter-spacing: 3.5px; fill: url(#titleGrad); }
-    .hero-subtitle { font-size: 13px; font-weight: 700; letter-spacing: 1.2px; fill: #E5B5C7; text-transform: uppercase; }
-    .hero-stack { font-size: 11px; font-weight: 500; letter-spacing: 0.8px; fill: #F8F0F3; }
+    .hero-subtitle { font-size: 14px; font-weight: 500; letter-spacing: 2px; fill: #E5B5C7; }
     .hero-desc { font-size: 13px; fill: #C77B9B; letter-spacing: 0.5px; }
     .stat-label { font-size: 10px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; fill: #C77B9B; }
     .stat-value { font-size: 13.5px; font-weight: 700; letter-spacing: 0.5px; fill: #F8F0F3; }
@@ -128,7 +127,7 @@
         <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite" />
         <animate attributeName="r" values="3.5;4.5;3.5" dur="2s" repeatCount="indefinite" />
       </circle>
-      <text x="28" y="17" class="font-mono tag-badge">AI FORWARD DEPLOYED ENGINEER</text>
+      <text x="28" y="17" class="font-mono tag-badge">FORWARD DEPLOYED · ARCHITECT</text>
     </g>
 
     <!-- Main Title: ASHRAF KHAN -->
@@ -139,17 +138,14 @@
     <rect x="0" y="94" width="500" height="2" fill="url(#beamGrad)" />
 
     <!-- Role / Positioning -->
-    <text x="0" y="120" class="font-sans hero-subtitle">AI FORWARD DEPLOYED ENGINEER · SENIOR SOFTWARE &amp; SYSTEMS ENGINEER</text>
-
-    <!-- Core Stack / Technologies -->
-    <text x="0" y="140" class="font-mono hero-stack">LLMs · RAG · Agentic AI · Python · FastAPI · AWS · Flutter · Cloud-Native Systems</text>
+    <text x="0" y="126" class="font-sans hero-subtitle">FORWARD DEPLOYED ENGINEER · MULTI-CLOUD ARCHITECT · ENTERPRISE AI</text>
 
     <!-- Technical Philosophy / Mission -->
-    <text x="0" y="160" class="font-sans hero-desc">Building resilient multi-cloud architectures, deterministic AI safety &amp; autonomous agent governance.</text>
+    <text x="0" y="152" class="font-sans hero-desc">Building resilient multi-cloud architectures, deterministic AI safety &amp; autonomous agent governance.</text>
 
     <!-- Animated Telemetry Waveform -->
-    <path d="M 0 204 Q 60 194, 120 204 T 240 204 T 360 204 T 480 204" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity="0.6" />
-    <path d="M 0 204 Q 60 190, 120 204 T 240 204 T 360 204 T 480 204" fill="none" stroke="#C77B9B" stroke-width="1.5" stroke-dasharray="80 140">
+    <path d="M 0 178 Q 60 168, 120 178 T 240 178 T 360 178 T 480 178" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity="0.6" />
+    <path d="M 0 178 Q 60 164, 120 178 T 240 178 T 360 178 T 480 178" fill="none" stroke="#C77B9B" stroke-width="1.5" stroke-dasharray="80 140">
       <animate attributeName="stroke-dashoffset" values="0;-220" dur="4s" repeatCount="indefinite" />
     </path>
   </g>
