@@ -22,9 +22,10 @@
 
 ## 🧭 Executive Overview
 
-Senior **Forward Deployed Engineer (FDE) & Multi-Cloud Solutions Architect** with **5+ years of production software engineering experience**, **10+ published commercial applications**, and **4 enterprise FDE system deployments**.
+**AI Forward Deployed Engineer | Senior Software & Systems Engineer**  
+`LLMs · RAG · Agentic AI · Python · FastAPI · AWS · Flutter · Cloud-Native Systems`
 
-Specializes in bridging complex enterprise operational challenges with resilient multi-cloud architectures (**AWS Fargate, Azure Container Apps, Kubernetes HPA, Terraform IaC, TimescaleDB, PostgreSQL**), zero-trust security governance (**HIPAA, PCI-DSS, Level 2 VAPT, SEBI/RBI standards**), agentic AI workflows (**LangGraph, Tool Calling, Human-in-the-Loop Governance, Saga Compensating Transactions**), and high-throughput microservices.
+With **5+ years of production software engineering experience**, **10+ published commercial applications**, and **4 enterprise FDE system deployments**. Specializes in bridging complex enterprise operational challenges with resilient cloud-native architectures (**AWS, Azure, Kubernetes HPA, Terraform IaC, TimescaleDB, PostgreSQL**), zero-trust security governance (**HIPAA, PCI-DSS, Level 2 VAPT, SEBI/RBI standards**), and production agentic AI workflows (**LangGraph, Tool Calling, Human-in-the-Loop Governance, Saga Compensating Transactions**).
 
 ### Verified Enterprise Impact
 
